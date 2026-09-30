@@ -22,10 +22,10 @@ time.sleep(3)
 
 # Fazer o login no sistema
 pyautogui.click(x=436, y=425)
-pyautogui.write("pythonimpressionador@gmail.com") #Credenciais fictícias utilizadas no ambiente de treinamento do curso
+pyautogui.write("pythonimpressionador@gmail.com") # Credenciais fictícias utilizadas no ambiente de treinamento do curso
 # Colocar a senha
 pyautogui.press("tab")
-pyautogui.write("python123") #Credenciais fictícias utilizadas no ambiente de treinamento do curso
+pyautogui.write("python123") # Credenciais fictícias utilizadas no ambiente de treinamento do curso
 # Apertar para logar
 pyautogui.press("tab")
 pyautogui.press("enter")
